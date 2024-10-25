@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">product</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <a href="login.html">LOGIN</a>
+            <div class="hi">
+                
+                </div>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">checkout</h3>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart-1.jpg" alt="">
+            <div class="content">
+                <h3>bakery item 1</h3>
+                <div class="price">$45.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart-2.jpg" alt="">
+            <div class="content">
+                <h3>bakery item 2</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart-3.jpg" alt="">
+            <div class="content">
+                <h3>bakery item 3</h3>
+                <div class="price">$29.99/-</div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> checkout </a>
+
+    </div>
+
+    <!-- shopping cart end-->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(slider1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>we bake the world a better place,Wanna try ??</h3>
+                        <a href="#product" class="btn"> get started </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(slider2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>we bake the world a better place, Know more about us</h3>
+                        <a href="#about" class="btn"> get started </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner -->
+
+    <section class="banner">
+        <img src="banner.png" alt="">
+    </section>
+
+
+    <!-- banner end-->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="about.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>good things come to those <span>who bake </span> for others</h3>
+                <p>Our journey began with a simple dream – to create a place where people could enjoy delicious, handcrafted pastries, breads, and cakes made from the finest ingredients. What started as a small home kitchen has grown into a beloved neighborhood bakery, 
+                    known for our commitment to excellence and friendly service.</p>
+                <a href="#review" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about us end-->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading">our <span> products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Strawberry pancake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$15.99</span>
+                    <a href="javascript:void(0)" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Blueberry pancake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$18.99</span>
+                    <a href="javascript:void(0)" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="b.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chocolate truffle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$11.99</span>
+                    <a href="javascript:void(0)" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cream cake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$15.99</span>
+                    <a href="javascript:void(0)" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Honey pancake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$27.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="s.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>cup cake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$25.99</span>
+                    <a href="javascript:void(0)" class="btn">add to cart</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- product end-->
+<!-- cart -->
+
+<section class="cart" id="cart">
+    <h1 class="heading">your <span>cart</span></h1>
+    <div class="cart-container">
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <h3>total: $<span id="total">0</span></h3>
+            <a href="cart.html" class="btn">proceed to checkout</a>
+            <!--button class="btn" id="proceed-btn">proceed to checkout</button-->
+        </div>
+    </div>
+</section>
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our <span> gallery</span></h1>
+
+        <div class="gallery-container">
+
+            <a href="images/gallery1.jpg" class="box">
+                <img src="gallery1.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery2.jpg" class="box">
+                <img src="gallery2.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery3.jpg" class="box">
+                <img src="gallery3.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery4.jpg" class="box">
+                <img src="gallery4.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery5.jpg" class="box">
+                <img src="gallery5.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery6.jpg" class="box">
+                <img src="gallery6.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- weekly promotions -->
+
+    <section class="promotion">
+
+        <h1 class="heading">weekly <span>promotions</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content">
+                    <h3>chocolate cake</h3>
+                    <p>Indulge in our rich, moist chocolate cake made with the finest cocoa. Each bite delivers deep cocoa flavors 
+                        and pure decadence. Perfect for any occasion or a well-deserved treat!</p>
+                </div>
+
+                <img src="promotion1.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="promotion2.png" alt="">
+                <div class="content">
+                    <h3>nut cake</h3>
+                    <p>Savor the delightful crunch of our nut cake, a moist and tender treat packed with a medley of roasted almonds, walnuts, and pecans. With each bite, enjoy the perfect harmony of rich flavors and nutty goodness. A wholesome, 
+                        satisfying cake for nut lovers!</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- weekly promotions ends -->
+
+    
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="review-1.png" class="user" alt="">
+                <h3>Hopper</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"This bakery is amazing! Everything I've tried is delicious, and the service is always friendly and welcoming."</p>
+            </div>
+
+            <div class="box">
+                <img src="review-2.png" class="user" alt="">
+                <h3>lacy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"I love coming here! The variety of treats is fantastic, and everything is fresh and full of flavor."</p>
+            </div>
+
+            <div class="box">
+                <img src="review-3.png" class="user" alt="">
+                <h3>dustin</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"A gem of a bakery! Their baked goods never disappoint, and I always leave with a smile and a treat in hand."</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review -->
+
+    
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>address</h3>
+                <p>The Grand Bakery Plaza,
+                    Suite 45, 2nd Floor, Building 8,vellore District,Tamilnadu.</p>
+                <div class="share">
+                    <a href="javascript:void(0)" class="fab fa-facebook-f"></a>
+                    <a href="javascript:void(0)" class="fab fa-twitter"></a>
+                    <a href="javascript:void(0)" class="fab fa-instagram"></a>
+                    <a href="javascript:void(0)" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>E-mail</h3>
+                <a href="#" class="link">bakersbakery@gmail.com</a>
+                <a href="#" class="link">team10@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>call us</h3>
+                <p>+91 1478 2369 81</p>
+                <p>+91 1478 2369 76</p>
+            </div>
+
+            <div class="box">
+                <h3> opening hours</h3>
+                <p>Monday - Friday: 9:00 - 23:00 <br> Saturday: 8:00 - 24:00 </p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>TEAM 10</span> all rights reserved! </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+
+</body>
+</html

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Checkout</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="1.css">
+    
+    <style>
+        /* Styling the success message */
+        .success-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- order -->
+    <section class="order" id="order">
+
+        <h1 class="heading"><span>order</span> now </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="order.gif" alt="">
+            </div>
+
+            <!-- Modified form action to point to order.php -->
+            <form id="orderForm" action="order.php" method="POST">
+                <div class="inputBox">
+                    <input type="text" name="first_name" placeholder="First name" required>
+                    <input type="text" name="last_name" placeholder="Last name" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="number" name="phone" placeholder="Phone number" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="food" placeholder="Food name" required>
+                    <input type="number" name="how_much" placeholder="How much" required>
+                </div>
+
+                <textarea name="address" placeholder="Your address" id="" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Order Now" class="btn">
+
+                <!-- Success message -->
+                <div id="successMessage" class="success-message">
+                    Your order is placed successfully!
+                </div>
+            </form>
+        
+              
+
+        </div>
+        
+    </section>
+    <!-- order end -->
+
+</body>
+</html>
